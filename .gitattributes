@@ -1,2 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+lib/res2net50_v1b_26w_4s-3cf99910.pth filter=lfs diff=lfs merge=lfs -text
+checkpoints/FAPNet.pth filter=lfs diff=lfs merge=lfs -text
